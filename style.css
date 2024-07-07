@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+   
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+    box-shadow: 2px 2px 10px black;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color:green;
+}
+.blue{
+    background-color: blue;
+}
+.flash{
+    background-color: white;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.max-score{
+    
+    transform: translate(40rem,-42rem);
+}
+h2{
+    text-decoration: underline;
+}
+h1{
+    text-decoration: underline;
+
+}
