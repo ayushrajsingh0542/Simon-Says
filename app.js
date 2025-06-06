@@ -18,6 +18,15 @@ let h2=document.querySelector("h2");
         levelUp();
             }
  });
+    document.addEventListener("touchstart",()=>{
+        if(started==false)//ye bcs abhi tak game start nhi hua to ho jae..to ek baar hi start ho
+            {
+        console.log("Game Started");
+        started=true;
+
+        levelUp();
+            }
+ });
  function btnFlash(btn){
     btn.classList.add("flash");
     setTimeout(()=>{
